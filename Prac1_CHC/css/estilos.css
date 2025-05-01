@@ -1,0 +1,213 @@
+body{
+    background-color:rgb(111, 136, 190);
+}
+hader {
+    width: 100%;
+    background-color: rgb(58, 58, 204);
+    justify-content: space-between;
+    height: 50px;
+    display: flex;
+    border-radius: 10px;
+    padding: 15px;
+}
+h1{
+    margin-top: auto;
+}
+hader nav{
+    width: 55%;
+    height: 40px;
+    background-color: rgb(165, 229, 178);
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    padding: 8px;
+}
+nav ul{
+    border-radius: 10px;
+    list-style: none;
+    display: flex;
+    margin-top: 11px;
+}
+nav ul li {
+    margin-right: 35px;
+    margin-left: 30px;
+}
+    
+
+nav ul li a{
+    background-color: rgb(96, 147, 125);
+    padding: 8px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    
+ }
+ div{
+    background-color: darkgray;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+ }
+
+ div nav{
+    width: 20%;
+    background-color: rgb(165, 229, 178);
+    border-radius: 15px;
+    padding: 10px 10px;
+    text-align: center;
+    margin-left: 10px
+ }
+ div nav ul{
+    display: block;
+    margin-block: 10px;
+    margin: 10px;
+ }
+ div nav ul li {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 8px;
+}
+div nav ul li a{
+    padding: 8px 15px;
+}
+div div{
+    display:flex;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+div div section{
+    width: 50%;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: rgb(165, 229, 178);
+    padding: 20px 20px;
+    border-radius: 15px;
+}
+img{
+    border-radius: 15px;
+    margin-top: 10px;
+    position: absolute;
+    left: 56%;
+    top: 4%;
+    width: 260px;
+    height: auto;
+}
+aside{
+    width: 22%;
+    background-color: rgb(174, 123, 222);
+    border-radius: 15px;
+    display: block;
+}
+aside h1{
+    margin-top: 60px;
+    text-align: center;
+}
+aside h2{
+    background-color: rgb(96, 147, 125);
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 50px;
+    color: white;
+}
+footer{
+    background-color: rgb(225, 124, 124);
+    border-radius: 15px;
+    padding: 20px;
+}
+ @media(max-width: 900px){/*TABLET*/
+    nav{
+        width: 63%;
+    }
+   nav ul{
+    padding: 2px 1%;
+   }
+    nav ul li{
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    nav ul li a{
+        padding: 3px 10px;
+ }
+ div nav{
+    width: 30%;
+    padding: 10px 10px;
+    text-align: center;
+    margin-left: 10px
+ }
+ div nav ul{
+    display: block;
+    margin-block: 10px;
+    margin: 10px;
+ }
+ div nav ul li {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 8px;
+}
+div div aside h2{
+    display: block;
+    padding: 20px 20px;
+    text-align: center;
+}
+div div section img{
+    position: relative;
+    display: block;   
+    width:50% ;
+   }
+
+ }
+ @media(max-width: 550px){/*CELULAR*/
+    hader{
+        display: block;
+    }
+    hader nav{
+        display: none;
+    }
+    body div{
+        display: block;
+        padding: 10px;
+
+    }
+ div nav{
+    width: 91%;
+    padding: 10px 10px;
+    text-align: center;
+    margin-left: 10px
+ }
+ div nav ul{
+    display: block;
+    margin-block: 10px;
+    margin: 10px;
+ }
+ div nav ul li {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 8px;
+}
+div nav ul li a{
+    padding: 10px 30px;
+}
+div div section{
+    width: 91%;
+    padding: 10px 10px;
+    position: relative;
+    display: block;
+}
+div div section img{
+ position: relative;   
+ width:40% ;
+}
+aside{
+    width: 95%;
+    
+}
+ }
